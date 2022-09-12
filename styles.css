@@ -83,3 +83,8 @@ button {
   outline: none;
   color: rgba(184, 184, 234, 0.789);
 }
+a.active {
+  color: rgba(184, 184, 234, 0.789);
+  cursor: default;
+  text-decoration: none;
+}
