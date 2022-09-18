@@ -25,6 +25,7 @@ body {
   gap: 5px;
   height: 500px;
   width: 300px;
+  padding: 0px 0px 0px 15px;
   background: rgba(71, 72, 79, 0.28);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -36,10 +37,8 @@ body {
 h1.tem {
   width: auto;
   height: auto;
-  margin: 0;
   padding: 0;
   font-size: 50pt;
-
   color: rgba(184, 184, 234, 0.789);
   align-self: center;
 }
@@ -56,17 +55,18 @@ h2 {
   align-self: center;
 }
 .time {
-  margin: 0 auto;
+  margin: 0;
   color: rgba(184, 184, 234, 0.789);
   font-size: 14pt;
 }
 ul.weather-items {
+  margin: 0;
   list-style: none;
   color: rgba(184, 184, 234, 0.789);
   font-size: 14pt;
 }
-
 input {
+  margin: 0 0 0 10px;
   background: rgba(0, 0, 0, 0);
   border: none;
   outline: none;
@@ -87,4 +87,17 @@ a.active {
   color: rgba(184, 184, 234, 0.789);
   cursor: default;
   text-decoration: none;
+}
+.signature {
+  position: absolute;
+  top: 500px;
+  color: rgba(184, 184, 234, 0.789);
+}
+
+#forecast {
+  display: flex;
+
+  flex-flow: row;
+  padding: 15px 0 0 0;
+  color: rgba(184, 184, 234, 0.789);
 }
